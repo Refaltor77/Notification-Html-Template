@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="app.css">
+  <script defer src="app.js"></script>
+  <title>Notification Page</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">
+        <h1>Notifications</h1>
+        <span class="number">3</span>
+      </div>
+      <p onclick="clickRead()" class="mark-all-as-read">Mark all as read</p>
+    </header>
+    <section class="notifications">
+
+      <!-- START NOTIF -->
+      <div class="notif not-read">
+        <img src="assets/images/avatar-mark-webber.webp">
+        <div class="text">
+          <p>
+            <strong>Mark Webber</strong> reacred to your recent post
+            <span class="post">My first tournament today!</span>
+          </p>
+          <span class="time">1m ago</span>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif not-read">
+        <img src="assets/images/avatar-angela-gray.webp">
+        <div class="text">
+          <p>
+            <strong>Angela Gray</strong> followed you
+          </p>
+          <span class="time">5m ago</span>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif not-read">
+        <img src="assets/images/avatar-jacob-thompson.webp">
+        <div class="text">
+          <p>
+            <strong>Jacob Thompson</strong> has joined your group
+            <span class="group">Chess Club</span>
+          </p>
+          <span class="time">1 day ago</span>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp">
+        <div class="text">
+          <p>
+            <strong>Rizky Hasanuddin</strong> sent you a private message
+          </p>
+          <span class="time">5 days ago</span>
+          <div class="msg">
+            <p>
+              Hello, thanks for settings up the Chess Club. I've been a
+              member for a few weeks now and i'm already having lots of fun
+              and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif-commented-picture">
+        <div class="left">
+          <img src="assets/images/avatar-kimberly-smith.webp">
+          <div class="text">
+            <p>
+              <strong>Kimberly Smith</strong> commented on your picture
+            </p>
+            <span class="time">1 week ago</span>
+          </div>
+        </div>
+        <div class="img">
+          <img alt="img-post" src="assets/images/image-chess.webp">
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif">
+        <img src="assets/images/avatar-nathan-peterson.webp">
+        <div class="text">
+          <p>
+            <strong>Nathan Peterson</strong> reacted to your recent post
+            <span class="post">5 end-game strategies to increase your win rate</span>
+          </p>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+
+      <!-- START NOTIF -->
+      <div class="notif">
+        <img src="assets/images/avatar-anna-kim.webp">
+        <div class="text">
+          <p>
+            <strong>Anna Kim</strong> left the group <span class="group">Chess Club</span>
+          </p>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+      <!-- END NOTIF -->
+    </section>
+  </div>
+</body>
+</html>
